@@ -18,6 +18,7 @@ $(function () {
 		],
 		repwd: function (value) {
 			var pwd = $('.reg_box [name = password]').val();
+			console.log(pwd);
 			if (pwd !== value) {
 				return '两次密码不一样，请重新输入';
 			}
